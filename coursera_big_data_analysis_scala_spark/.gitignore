@@ -1,2 +1,4 @@
 wikipedia/src/main/resources/wikipedia/wikipedia.dat
 wikipedia/target/scala-2.12/classes/wikipedia/wikipedia.dat
+stackoverflow/target/scala-2.12/classes/stackoverflow/stackoverflow.csv
+stackoverflow/src/main/resources/stackoverflow/stackoverflow.csv

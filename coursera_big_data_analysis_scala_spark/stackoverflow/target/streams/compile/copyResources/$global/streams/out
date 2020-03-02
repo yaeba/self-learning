@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/xuankentay/Downloads/stackoverflow/src/main/resources/stackoverflow,/home/xuankentay/Downloads/stackoverflow/target/scala-2.12/classes/stackoverflow)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/xuankentay/Downloads/stackoverflow/src/main/resources/stackoverflow/stackoverflow.csv,/home/xuankentay/Downloads/stackoverflow/target/scala-2.12/classes/stackoverflow/stackoverflow.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/xuankentay/Downloads/stackoverflow/src/main/resources/stackoverflow/sample.csv,/home/xuankentay/Downloads/stackoverflow/target/scala-2.12/classes/stackoverflow/sample.csv)[0m
