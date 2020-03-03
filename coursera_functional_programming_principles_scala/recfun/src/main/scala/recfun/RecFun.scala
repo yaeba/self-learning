@@ -40,6 +40,7 @@ object RecFun extends RecFunInterface {
     def countWays(remain: Int, coins: List[Int]): Int = {
       if (remain == 0) 1
       else if (remain < 0 || coins.isEmpty) 0
+      else if (coins.head <= 0) throw new Exception("Coin value <= 0")
       else countWays(remain - coins.head, coins) + countWays(remain, coins.tail)
     }
 
