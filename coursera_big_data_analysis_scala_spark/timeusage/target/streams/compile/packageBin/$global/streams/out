@@ -1,0 +1,23 @@
+[info] Packaging C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\bigdata-timeusage_2.12-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	timeusage\TimeUsageInterface.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsageInterface.class
+[debug] 	timeusage\TimeUsage$.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsage$.class
+[debug] 	timeusage\TimeUsageRow.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsageRow.class
+[debug] 	timeusage\atussum.csv
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\atussum.csv
+[debug] 	timeusage\TimeUsage$$typecreator1$1.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsage$$typecreator1$1.class
+[debug] 	timeusage\TimeUsage$$typecreator5$1.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsage$$typecreator5$1.class
+[debug] 	timeusage
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage
+[debug] 	timeusage\TimeUsage.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsage.class
+[debug] 	timeusage\TimeUsageRow$.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsageRow$.class
+[debug] 	timeusage\TimeUsage$$typecreator4$1.class
+[debug] 	  C:\Users\XTay\Downloads\real\timeusage\timeusage\target\scala-2.12\classes\timeusage\TimeUsage$$typecreator4$1.class
+[info] Done packaging.
