@@ -165,6 +165,28 @@ object Anagrams extends AnagramsInterface {
     val occurrence = sentenceOccurrences(sentence)
     anagramRecursive(occurrence)
   }
+
+  // With memoization
+  def sentenceAnagramsMemo(sentence: Sentence): List[Sentence] = {
+    // Store intermediate results in map
+    val memo = collection.mutable.Map.empty[Occurrences, List[Sentence]]
+
+    def anagramRecursiveMemo(occurrence: Occurrences): List[Sentence] =
+      if (occurrence.isEmpty) List(Nil)
+      else
+        for {
+          poss <- combinations(occurrence)
+          if (dictionaryByOccurrences.contains(poss))
+          word <- dictionaryByOccurrences(poss)
+          newOccurrence = subtract(occurrence, poss)
+          // Check if previously has computed
+          cached = memo.getOrElseUpdate(newOccurrence, anagramRecursiveMemo(newOccurrence))
+          remaining <- cached
+        } yield word :: remaining
+
+    val occurrence = sentenceOccurrences(sentence)
+    anagramRecursiveMemo(occurrence)
+  }
 }
 
 object Dictionary {
